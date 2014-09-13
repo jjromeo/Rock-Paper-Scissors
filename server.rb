@@ -4,7 +4,7 @@ require './lib/game'
 
 class RockPaperScissors < Sinatra::Base
   get '/' do
-    erb :index
+    haml :index
   end
 
   get '/new-game' do
