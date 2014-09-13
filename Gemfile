@@ -1,6 +1,6 @@
 source 'http://rubygems.org'
 gem 'sinatra'
-
+gem 'haml'
 gem 'rspec'
 gem 'capybara'
 gem 'cucumber-sinatra'

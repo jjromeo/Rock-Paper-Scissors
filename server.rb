@@ -1,27 +1,36 @@
 require 'sinatra/base'
+require 'haml'
 require './lib/player'
 require './lib/game'
 
 class RockPaperScissors < Sinatra::Base
+
+enable :sessions  
+
   get '/' do
     haml :index
   end
 
   get '/new-game' do
-  	erb :new_player
+  	haml :new_player
   end
 
   post '/register' do 
   	@player = params[:name]
-  	erb :play	
+  	haml :play	
   end
+
 
   post "/play" do
   	player = Player.new(params[:name])
   	player.picks = params[:pick]
   	computer = generate_computer
   	@game = Game.new(player, computer)
-  	erb :outcome
+  	haml :outcome
+  end
+
+  get "/play" do 
+    haml :play
   end
 
   def generate_computer

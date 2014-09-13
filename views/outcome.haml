@@ -1,0 +1,10 @@
+RESULTS:
+- if @game.winner == "Draw"
+	%h1 it was a draw
+- elsif @game.winner.name == "computer"
+	%h1= "You lost, the computer won with #{@game.winner.pick}"
+- else
+	%h1= "You won, with #{@game.winner.pick}"
+
+%form{action:"/play", method:"GET"}
+	%button Play again!

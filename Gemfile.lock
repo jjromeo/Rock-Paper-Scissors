@@ -11,6 +11,8 @@ GEM
       templater (>= 1.0.0)
     diff-lcs (1.2.5)
     extlib (0.9.16)
+    haml (4.0.5)
+      tilt
     highline (1.6.21)
     mime-types (2.3)
     mini_portile (0.6.0)
@@ -51,5 +53,6 @@ PLATFORMS
 DEPENDENCIES
   capybara
   cucumber-sinatra
+  haml
   rspec
   sinatra
