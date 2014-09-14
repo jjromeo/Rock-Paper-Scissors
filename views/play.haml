@@ -1,6 +1,6 @@
 - if @player
 	%h1= "Welcome #{@player}"
-	%h2 Pick carefully!
+	%h2 Pick carefully.
 
 %form{action:"/play", method:"POST"}
 	%input{type:"image", src: "../images/paper.jpg", name:"pick", value:"Paper"}
