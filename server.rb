@@ -3,6 +3,10 @@ require 'haml'
 require './lib/player'
 require './lib/game'
 
+configure :production do
+  require 'newrelic_rpm'
+end
+
 class RockPaperScissors < Sinatra::Base
 
 enable :sessions  
