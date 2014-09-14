@@ -1,8 +1,9 @@
 - if @player
 	%h1= "Welcome #{@player}"
+	%h2 Pick carefully!
 
 %form{action:"/play", method:"POST"}
-	%button{name:"pick", value:"Paper"} Paper
-	%button{name:"pick", value:"Rock"} Rock
-	%button{name:"pick", value:"Scissors"} Scissors
+	%input{type:"image", src: "../images/paper.jpg", name:"pick", value:"Paper"}
+	%input{type:"image", src: "../images/rock.jpg", name:"pick", value:"Rock"}
+	%input{type:"image", src: "../images/scissors.jpg", name:"pick", value:"Scissors"}
 	%input{type:"hidden", name:"name", value:"#{@name}"}

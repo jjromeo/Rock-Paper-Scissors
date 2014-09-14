@@ -12,3 +12,57 @@
 [09/14/14 15:10:03 +0100 Jeromes-MacBook-Pro.local (25827)] INFO : Finished instrumentation
 [09/14/14 15:10:03 +0100 Jeromes-MacBook-Pro.local (25827)] INFO : Doing deferred dependency-detection before Rack startup
 [09/14/14 15:10:07 +0100 Jeromes-MacBook-Pro.local (25827)] INFO : Reporting to: https://rpm.newrelic.com/accounts/769443/applications/3816716
+[09/14/14 15:11:40 +0100 Jeromes-MacBook-Pro.local (25827)] INFO : Reporting to: https://rpm.newrelic.com/accounts/769443/applications/3816716
+[09/14/14 16:17:39 +0100 Jeromes-MacBook-Pro.local (25827)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[09/14/14 16:17:39 +0100 Jeromes-MacBook-Pro.local (25827)] ERROR : SocketError: getaddrinfo: nodename nor servname provided, or not known
+[09/14/14 16:17:39 +0100 Jeromes-MacBook-Pro.local (25827)] ERROR : 1 error(s) running task for event 'report_transaction_event_data' in Agent Event Loop:
+[09/14/14 16:17:39 +0100 Jeromes-MacBook-Pro.local (25827)] ERROR : SocketError: getaddrinfo: nodename nor servname provided, or not known
+[09/14/14 17:36:55 +0100 Jeromes-MacBook-Pro.local (26517)] INFO : Starting the New Relic agent in "development" environment.
+[09/14/14 17:36:55 +0100 Jeromes-MacBook-Pro.local (26517)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[09/14/14 17:36:55 +0100 Jeromes-MacBook-Pro.local (26517)] INFO : Reading configuration from newrelic.yml (/Users/jeromepratt/Desktop/Makers/challenges/rockpaperscissors)
+[09/14/14 17:36:55 +0100 Jeromes-MacBook-Pro.local (26517)] INFO : Environment: development
+[09/14/14 17:36:55 +0100 Jeromes-MacBook-Pro.local (26517)] INFO : Dispatcher: webrick
+[09/14/14 17:36:55 +0100 Jeromes-MacBook-Pro.local (26517)] INFO : Application: My Application (Development)
+[09/14/14 17:36:55 +0100 Jeromes-MacBook-Pro.local (26517)] INFO : Installing Net instrumentation
+[09/14/14 17:36:55 +0100 Jeromes-MacBook-Pro.local (26517)] INFO : Installing Sinatra instrumentation
+[09/14/14 17:36:55 +0100 Jeromes-MacBook-Pro.local (26517)] INFO : Installing deferred Rack instrumentation
+[09/14/14 17:36:55 +0100 Jeromes-MacBook-Pro.local (26517)] INFO : Installing Rack::Builder middleware instrumentation
+[09/14/14 17:36:55 +0100 Jeromes-MacBook-Pro.local (26517)] INFO : Finished instrumentation
+[09/14/14 17:36:55 +0100 Jeromes-MacBook-Pro.local (26517)] INFO : Doing deferred dependency-detection before Rack startup
+[09/14/14 17:36:56 +0100 Jeromes-MacBook-Pro.local (26521)] INFO : Starting the New Relic agent in "development" environment.
+[09/14/14 17:36:56 +0100 Jeromes-MacBook-Pro.local (26521)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[09/14/14 17:36:56 +0100 Jeromes-MacBook-Pro.local (26521)] INFO : Reading configuration from newrelic.yml (/Users/jeromepratt/Desktop/Makers/challenges/rockpaperscissors)
+[09/14/14 17:36:56 +0100 Jeromes-MacBook-Pro.local (26521)] INFO : Environment: development
+[09/14/14 17:36:56 +0100 Jeromes-MacBook-Pro.local (26521)] INFO : Dispatcher: webrick
+[09/14/14 17:36:56 +0100 Jeromes-MacBook-Pro.local (26521)] INFO : Application: My Application (Development)
+[09/14/14 17:36:56 +0100 Jeromes-MacBook-Pro.local (26521)] INFO : Installing Net instrumentation
+[09/14/14 17:36:56 +0100 Jeromes-MacBook-Pro.local (26521)] INFO : Installing Sinatra instrumentation
+[09/14/14 17:36:56 +0100 Jeromes-MacBook-Pro.local (26521)] INFO : Installing deferred Rack instrumentation
+[09/14/14 17:36:56 +0100 Jeromes-MacBook-Pro.local (26521)] INFO : Installing Rack::Builder middleware instrumentation
+[09/14/14 17:36:56 +0100 Jeromes-MacBook-Pro.local (26521)] INFO : Finished instrumentation
+[09/14/14 17:36:56 +0100 Jeromes-MacBook-Pro.local (26521)] INFO : Doing deferred dependency-detection before Rack startup
+[09/14/14 17:37:25 +0100 Jeromes-MacBook-Pro.local (26530)] INFO : Starting the New Relic agent in "development" environment.
+[09/14/14 17:37:25 +0100 Jeromes-MacBook-Pro.local (26530)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[09/14/14 17:37:25 +0100 Jeromes-MacBook-Pro.local (26530)] INFO : Reading configuration from newrelic.yml (/Users/jeromepratt/Desktop/Makers/challenges/rockpaperscissors)
+[09/14/14 17:37:25 +0100 Jeromes-MacBook-Pro.local (26530)] INFO : Environment: development
+[09/14/14 17:37:25 +0100 Jeromes-MacBook-Pro.local (26530)] INFO : Dispatcher: webrick
+[09/14/14 17:37:25 +0100 Jeromes-MacBook-Pro.local (26530)] INFO : Application: My Application (Development)
+[09/14/14 17:37:25 +0100 Jeromes-MacBook-Pro.local (26530)] INFO : Installing Net instrumentation
+[09/14/14 17:37:25 +0100 Jeromes-MacBook-Pro.local (26530)] INFO : Installing Sinatra instrumentation
+[09/14/14 17:37:25 +0100 Jeromes-MacBook-Pro.local (26530)] INFO : Installing deferred Rack instrumentation
+[09/14/14 17:37:25 +0100 Jeromes-MacBook-Pro.local (26530)] INFO : Installing Rack::Builder middleware instrumentation
+[09/14/14 17:37:25 +0100 Jeromes-MacBook-Pro.local (26530)] INFO : Finished instrumentation
+[09/14/14 17:37:25 +0100 Jeromes-MacBook-Pro.local (26530)] INFO : Doing deferred dependency-detection before Rack startup
+[09/14/14 17:37:30 +0100 Jeromes-MacBook-Pro.local (26535)] INFO : Starting the New Relic agent in "development" environment.
+[09/14/14 17:37:30 +0100 Jeromes-MacBook-Pro.local (26535)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[09/14/14 17:37:30 +0100 Jeromes-MacBook-Pro.local (26535)] INFO : Reading configuration from newrelic.yml (/Users/jeromepratt/Desktop/Makers/challenges/rockpaperscissors)
+[09/14/14 17:37:30 +0100 Jeromes-MacBook-Pro.local (26535)] INFO : Environment: development
+[09/14/14 17:37:30 +0100 Jeromes-MacBook-Pro.local (26535)] INFO : No known dispatcher detected.
+[09/14/14 17:37:30 +0100 Jeromes-MacBook-Pro.local (26535)] INFO : Application: My Application (Development)
+[09/14/14 17:37:30 +0100 Jeromes-MacBook-Pro.local (26535)] INFO : Installing Net instrumentation
+[09/14/14 17:37:30 +0100 Jeromes-MacBook-Pro.local (26535)] INFO : Installing Sinatra instrumentation
+[09/14/14 17:37:30 +0100 Jeromes-MacBook-Pro.local (26535)] INFO : Installing deferred Rack instrumentation
+[09/14/14 17:37:30 +0100 Jeromes-MacBook-Pro.local (26535)] INFO : Installing Rack::Builder middleware instrumentation
+[09/14/14 17:37:30 +0100 Jeromes-MacBook-Pro.local (26535)] INFO : Finished instrumentation
+[09/14/14 17:37:30 +0100 Jeromes-MacBook-Pro.local (26535)] INFO : Doing deferred dependency-detection before Rack startup
+[09/14/14 17:37:34 +0100 Jeromes-MacBook-Pro.local (26535)] INFO : Reporting to: https://rpm.newrelic.com/accounts/769443/applications/3816716
