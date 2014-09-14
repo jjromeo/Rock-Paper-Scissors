@@ -2,10 +2,7 @@ require 'sinatra/base'
 require 'haml'
 require './lib/player'
 require './lib/game'
-
-configure :production do
-  require 'newrelic_rpm'
-end
+require 'newrelic_rpm'
 
 class RockPaperScissors < Sinatra::Base
 
