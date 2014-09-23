@@ -11,7 +11,7 @@ describe Game do
 
 	context 'when playing' do
 
-		it 'player one picks rock, player two picks scissors' do
+		it 'player one picks rock , player two picks scissors' do
 			allow(player1).to receive(:pick).and_return("Rock")
 			allow(player2).to receive(:pick).and_return("Scissors")
 			expect(game.winner).to eq player1
